@@ -2,12 +2,35 @@
 body{
     background-color: #ffffff;
     color: white;
+	font-family: 'Playfair Display', serif;
 }
-header img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#top{
+    display: grid;
+	grid-template-columns: repeat(5, 1fr);
     max-height: 5em;
+}
+#logo{
+	grid-column: 3;
+	height: 5em;
+	width: auto;
+	margin: 0 auto;
+	margin: 0 auto;
+}
+#facebook, #insta{
+	position: relative;
+	top: 2em;
+}
+#facebook{
+	grid-column: 5;
+	height: 3em;
+	width: auto;
+}
+#insta{
+	grid-column: 4;
+	height: 3em;
+	width: auto;
+	margin-right: 0;
+	margin-left: auto;
 }
 nav {
 	margin: 0 auto;
@@ -16,11 +39,9 @@ nav {
     color: #ffffff;
 
 }
-
 .navigation {
 	list-style: none;
 	padding: 0;
-	
 }
 .navigation li:first-child {
 	display: block;
@@ -54,6 +75,7 @@ nav {
 .responsive li {
 	display: block;
 }
+
 @media only screen and (min-width: 52em) {
 	.navigation {
 		display: flex;
