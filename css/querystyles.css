@@ -1,0 +1,18 @@
+/* Large viewport */
+@media screen and (min-width: 1200px) {
+    
+    
+}
+
+/* Medium viewport */
+
+@media screen and (min-width: 600px) {
+    #tcimg{
+        height: 50vh;
+        width: auto;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+    }
+    
+
+}

@@ -5,18 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/querystyles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div id="top">
             <img src="images/temple.svg" id="logo" alt="Temple View Logo">
-            <img src="images/instagram.png" id="insta" alt="instagram logo">
-
-            <img src="images/facebook.png" id="facebook" alt="facebook logo">
+            
+            <a href="https://www.instagram.com/" id="ig"><img src="images/instagram.png" id="insta" alt="instagram logo"></a>
+            <a href="https://www.facebook.com/" id="fb"><img src="images/facebook.png" id="facebook" alt="facebook logo"></a>
         </div>
         <nav>
             <ul class="navigation">
@@ -29,11 +33,33 @@
         </nav>
     </header>
     <main>
-
+        <section id="templecard">
+            <img src="images/sandiego.webp" id="tcimg" alt="Temple View Spotlight">
+            <p id="info">The San Diego California temple was California's third temple, It began construction in 1988 and was opened and dedicated in 1993.</p>
+            <a id="cta" href="https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng" type="button">Reserve Now →</a>        
+        </section>
+        <section id="weather">
+            <section id="today">
+                <h1>San Diego</h1>
+                <h2 class="temp">temp</h2>
+                <h2 class="humidity">humidity</h2>
+                <p class="description">description</p>
+            </section>
+            <section>
+                <h2 class="day1">temp</h2>
+            </section>
+            <section>
+                <h2 class="day2">temp</h2>
+            </section>
+            <section>
+                <h2 class="day3">temp</h2>
+            </section>
+        </section>
     </main>
     <footer>
 
     </footer>
     <script src="js/hamburger.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
