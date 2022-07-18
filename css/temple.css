@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+main{
+  color: black;
+}
+#accordion{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1rem;
+  max-width: 100vw;
+}
+.card img{
+  max-width: 50vw;
+  height: auto;
+}
+.card{
+  border: 4px solid black;
+
+}
+.btns{
+  position: absolute;
+  top: 216px;
+  left: 328px;
+  display: flex;
+}
+
+.btn{
+  background: transparent;
+  border: none;
+  margin: 87px;
+  font-size: 88px;
+  outline: none;
+  color: grey;
+}
+
+.btn i:hover{
+  cursor: pointer;
+}

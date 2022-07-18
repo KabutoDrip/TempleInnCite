@@ -1,0 +1,30 @@
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+main{
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-bottom: 2em;
+}
+form input,label{
+    padding: 1em;
+}
+select{
+    height: 2em;
+}
+#numrooms,#roomtype{
+    width: 45%;
+    text-align: center;
+}
+    #numrooms{float: left;}
+    #roomtype{float: right;}

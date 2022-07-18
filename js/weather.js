@@ -15,7 +15,7 @@ fetch('https://api.openweathermap.org/data/2.5/onecall?lat=32.71&lon=-117.16&app
     var tempValue = parseInt(((parseFloat(data['current']['temp'])-273.15)*1.8)+32);
     var humidityValue = parseInt(data['current']['humidity'])
     var descriptionValue = (data['current']['weather'][0]['description']);
-    
+    descriptionValue = descriptionValue.charAt(0).toUpperCase() + descriptionValue.slice(1);
     temperature.innerHTML = "Temp: " + tempValue;
     humidity.innerHTML = "Humidity: " + humidityValue;
     captiondesc.innerHTML = " " + descriptionValue;

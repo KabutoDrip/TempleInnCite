@@ -1,0 +1,34 @@
+[
+    {
+        "Name": "Atlanta Georgia Temple",
+        "Address": "6450 Barfield Rd NE Sandy Springs GA 30328-4283 United States",
+        "Phone": "(1) 770-393-3698",
+        "Services": "No clothing rental available\\n No cafeteria available Patron housing available Distribution center nearby",
+        "History": "Began Construction on March 7 1981, was Dedicated June 1 1983",
+        "Closures": "Monday, 26 September 2022 - Monday, 10 October 2022"
+    },
+    {
+        "Name": "Cedar City Utah Temple",
+        "Address": "280 South Cove Dr Cedar City UT 84720 United States",
+        "Phone": "(1) 435-572-4150",
+        "Services": "Clothing rental available No cafeteria available No patron housing available Distribution center nearby",
+        "History": "Began Construction on August 8 2015, was Dedicated December 10 2017",
+        "Closures": "Saturday, 1 October 2022 | Monday, 10 October 2022 - Monday, 24 October 2022 | Wednesday, 23 November 2022 - Thursday, 24 November 2022 | Saturday, 24 December 2022 - Sunday, 25 December 2022 | Saturday, 31 December 2022 - Sunday, 1 January 2023"
+    },
+    {
+        "Name": "Lubbock Texas Temple",
+        "Address": "7016 Frankford Ave Lubbock TX 79424 United States",
+        "Phone": "(1) 806-794-0774",
+        "Services": "No clothing rental available No cafeteria available No patron housing available No distribution center nearby",
+        "History": "Began Construction on November 4 2000, was Dedicated April 21 2002",
+        "Closures": "Monday, 26 September 2022 - Monday, 10 October 2022 | Wednesday, 23 November 2022 - Thursday, 24 November 2022 | Saturday, 24 December 2022 - Sunday, 25 December 2022 | Saturday, 31 December 2022 - Sunday, 1 January 2023"
+    },
+    {
+        "Name": "Twin Falls Idaho Temple",
+        "Address": "1405 Eastland Dr N Twin Falls ID 83301 United States",
+        "Phone": "(1) 208-736-7070",
+        "Services": "No clothing rental available No cafeteria available No patron housing available Distribution center nearby",
+        "History": "Began Construction on April 15 2006, was Dedicated August 24 2008",
+        "Closures": "Monday, 12 September 2022 - Monday, 26 September 2022 | Saturday, 1 October 2022 | Wednesday, 23 November 2022 (Limited Operations) | Thursday, 24 November 2022 | Saturday, 24 December 2022 | Saturday, 31 December 2022"
+    }
+]

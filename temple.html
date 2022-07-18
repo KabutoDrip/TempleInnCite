@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temple</title>
-    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/temple.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"></head>
@@ -13,9 +15,8 @@
     <header>
         <div id="top">
             <img src="images/temple.svg" id="logo" alt="Temple View Logo">
-            <img src="images/instagram.png" id="insta" alt="instagram logo">
-
-            <img src="images/facebook.png" id="facebook" alt="facebook logo">
+            <a href="https://www.instagram.com/" id="ig"><img src="images/instagram.png" id="insta" alt="instagram logo"></a>
+            <a href="https://www.facebook.com/" id="fb"><img src="images/facebook.png" id="facebook" alt="facebook logo"></a>
         </div>
         <nav>
             <ul class="navigation">
@@ -27,5 +28,32 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div id="accordion"></div>
+        <Button onclick="Toggle1()" id="btnh1" class="btn"><i class="fas fa-heart"></i></Button>
+    </main>
+    <footer>
+        <img src="images/logowhite.png" alt="templeview logo">              
+        <ul class="media_nav">
+            <h2 id="media">Media</h2>
+            <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+            </ul>
+        </ul>
+        <address><a href="https://goo.gl/maps/9eE8jLrSF9VUdiZE9">4800 Montgomery Dr, Bethesda, MD 20814</a><br></address>
+        <h4 id="last">Days Since Last Visit:</h4>
+
+      <p>&copy; Temple Inn & Suites</p>
+
+  </footer>
 </body>
+<script src="https://kit.fontawesome.com/f6dcf461c1.js"></script>
+<script src="js/hamburger.js"></script>
+<script src="js/lastvisit.js"></script>
+<script src="js/jsonreader.js"></script>
+<script src="js/like.js"></script>
+
+
 </html>

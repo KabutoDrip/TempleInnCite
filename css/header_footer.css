@@ -95,3 +95,41 @@ nav {
 		display: none;
 	}
 }
+
+footer{
+	background-color: #01234c;
+	color: #ffffff;
+	display: flex;
+	flex-flow: row wrap;
+	padding: 20px 20px 50px 50px;
+	background-color: #01234c;
+	align-items: center;
+	justify-content: center;
+	line-height: 0;
+	font-size: 1rem;
+  }
+  
+ul {
+	list-style: none;
+	padding-left: 0;
+  }
+  
+li {
+	line-height: 2em;
+  }
+  
+footer a {
+	text-decoration: none;
+	color: white;
+  }
+footer h4{
+	text-decoration: none;
+	color: white;
+	padding: 3em;
+}
+.media_nav,address{
+	padding: 3em;
+}
+body{
+	color: black;
+}
