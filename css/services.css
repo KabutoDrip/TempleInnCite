@@ -1,0 +1,27 @@
+section{
+    color: #353535;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    max-width: 100vw;
+}
+h1{
+    font-family: 'Playfair Display', serif; 
+}
+
+#services{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #d9d9d9;
+}
+#amenitites,#specialservices{
+    max-width: 50vw;
+    padding: 2em;
+    text-align: center;
+}
+#amenities{
+    grid-row: 2;
+}
+a{
+    color: #353535;
+}

@@ -1,37 +1,63 @@
 *{
   margin: 0;
   padding: 0;
-
 }
+
 main{
   color: black;
+  overflow: hidden;
 }
 #accordion{
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
   display: grid;
   grid-template-columns: 1fr;
-  justify-items: center;
-  gap: 1rem;
+  gap: 10em 1em;
   max-width: 100vw;
 }
 .card img{
-  max-width: 50vw;
+  max-width: calc(50vw - 4em);
   height: auto;
+  margin: 0 auto;
 }
 .card{
-  border: 4px solid black;
-
+  border: 4px solid #01234c;
 }
-.btns{
-  position: absolute;
-  top: 216px;
-  left: 328px;
+.card-body{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-text{
+  max-width: 70%;
+  margin: 0 auto;
+}
+.card-text h5{
+  font-size: 1.5em;
+}
+#card0{
+  grid-row: 1; 
+  
+}
+#card1{
+  grid-row: 2;
+}
+#card2{
+  grid-row: 3;
+}
+#card3{
+  grid-row: 4;
+}
+
+.btns{
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .btn{
   background: transparent;
   border: none;
-  margin: 87px;
   font-size: 88px;
   outline: none;
   color: grey;

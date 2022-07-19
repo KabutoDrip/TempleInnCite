@@ -10,8 +10,37 @@
     #tcimg{
         height: 50vh;
         width: auto;
-        margin-left: 0 auto;
-        margin-right: 0 auto;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #acordian{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #card0{
+        grid-row: 1; 
+      }
+    #card1{
+        grid-row: 1;
+      }
+    #card2{
+        grid-row: 2;
+      }
+    #card3{
+        grid-row: 2;
+      }
+    .btns{
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    #services{
+      grid-template-columns: 1fr 1fr;
+    }
+    #amenities{
+      grid-column: 1;
+    }
+    #specialservices{
+      grid-column: 2;
     }
     
 

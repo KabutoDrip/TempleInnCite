@@ -12,15 +12,18 @@ fetch('templedata.json')
       
         // Construct card content
         const content = `
-          <div class="card">
+          <div class="card" id="card${templenum}">
             <div class="card-body">
             <img src="images/${templenum}.webp" alt="Image of ${result["Name"]}">
-              <h5>${result["Name"]}</h5>
-              <p>${result["Address"]}</p>
-              <p>${result["Phone"]}</p>
-              <p>${result["Closures"]}</p>
-              <p>${result["Services"]}</p>
-              <p>${result["History"]}</p>
+              <div class="card-text">
+                <h5 class="name">${result["Name"]}</h5>
+                <p class="address">${result["Address"]}</p>
+                <p class="phone">${result["Phone"]}</p>
+                <p class="closures">${result["Closures"]}</p>
+                <p class="services">${result["Services"]}</p>
+                <p class="history">${result["History"]}</p>
+                
+              </div>
             </div>
           </div>
         `;

@@ -133,3 +133,8 @@ footer h4{
 body{
 	color: black;
 }
+#thanks{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	padding: 10em;
+}
